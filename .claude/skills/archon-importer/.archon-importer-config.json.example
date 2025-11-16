@@ -1,0 +1,48 @@
+{
+  "archon_backend_url": "http://localhost:8181",
+  "default_knowledge_type": "technical",
+  "doc_patterns": [
+    "*.md",
+    "*.rst",
+    "*.txt",
+    "docs/**/*",
+    "documentation/**/*",
+    "*.pdf"
+  ],
+  "exclude_patterns": [
+    "node_modules/**",
+    ".git/**",
+    "*.min.js",
+    "*.min.css",
+    "dist/**",
+    "build/**",
+    "__pycache__/**",
+    "*.pyc",
+    ".venv/**",
+    "venv/**",
+    "*.lock"
+  ],
+  "code_file_patterns": [
+    "*.py",
+    "*.js",
+    "*.ts",
+    "*.jsx",
+    "*.tsx",
+    "*.java",
+    "*.go",
+    "*.rs",
+    "*.rb",
+    "*.php",
+    "*.c",
+    "*.cpp",
+    "*.h",
+    "*.cs",
+    "*.swift"
+  ],
+  "max_file_size_mb": 10,
+  "generate_docs_by_default": true,
+  "include_code_examples_by_default": true,
+  "max_retries": 3,
+  "retry_delay_seconds": 2,
+  "upload_timeout_seconds": 300
+}
